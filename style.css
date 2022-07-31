@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    float: right;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.epic-look{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.a-epic-look{
+    background-color: white;
+    color: rgb(176, 96, 255);
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1%;
+    margin-left: 45%;
+}
+
+.epic-look:hover{
+    transition: calc(background-color, color);
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+.a-epic-look:hover{
+    transition: calc(background-color, color);
+    background-color: rgb(176, 96, 255);
+    color: white;
+    transition-duration: 0.5s;
+}
